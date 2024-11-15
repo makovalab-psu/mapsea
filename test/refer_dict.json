@@ -1,0 +1,37 @@
+{
+    "human": [
+        "hs1",
+        "Homo_sapiens",
+        1
+    ],
+    "bonobo": [
+        "pan",
+        "Pan_paniscus",
+        2
+    ],
+    "chimp": [
+        "pan",
+        "Pan_troglodytes",
+        3
+    ],
+    "gorilla": [
+        "gor",
+        "Gorilla_gorilla",
+        4
+    ],
+    "sorang": [
+        "pon",
+        "Pongo_abelii",
+        5
+    ],
+    "borang": [
+        "pon",
+        "Pongo_pygmaeus",
+        6
+    ],
+    "siamang": [
+        "sia",
+        "Symphalangus_syndactylus",
+        7
+    ]
+}
