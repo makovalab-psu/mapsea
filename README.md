@@ -31,9 +31,8 @@ The second script refines the initial mapping by accounting for slight positiona
 
 Below are example commands to demonstrate the main functionality of this repository:
 
--   **Alignment Mapping**:
-    Use case:  
-    `mapsea.py [-h] -m MAFINPUT -b BEDFOLDER -o OUTFILE -t TEMPDIR -r INTERSECTRATIO -d SPECIESDICT [-f MAPFILE] [-c CORES]`
+-   **Alignment Mapping**:  
+    Use case: `mapsea.py [-h] -m MAFINPUT -b BEDFOLDER -o OUTFILE -t TEMPDIR -r INTERSECTRATIO -d SPECIESDICT [-f MAPFILE] [-c CORES]`
     
     ```
     options:
@@ -57,9 +56,8 @@ Below are example commands to demonstrate the main functionality of this reposit
 				The number of cores available for this job (e.g. 10)
     ```
     
--   **Merging Similar G4s**:
-    Use case:
-    `refiner.py [-h] -d DATINPUT -f FLANK [-c CORES] [-o OUTFILE] [-m]`
+-   **Merging Similar G4s**:  
+    Use case: `refiner.py [-h] -d DATINPUT -f FLANK [-c CORES] [-o OUTFILE] [-m]`
    
     ```
     options:
