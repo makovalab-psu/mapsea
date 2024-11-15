@@ -58,7 +58,6 @@ Below are example commands to demonstrate the main functionality of this reposit
     ```
     
 -   **Merging Similar G4s**:
-(**only when output is generated using `mapsea.py -f 1.0`**)
     Use case:
     `refiner.py [-h] -d DATINPUT -f FLANK [-c CORES] [-o OUTFILE] [-m]`
    
