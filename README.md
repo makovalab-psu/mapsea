@@ -12,7 +12,7 @@ Scripts for mapping short elements stored in .BED files (as intervals, e.g. G-qu
 
 ## Overview
 
-This repository provides two Python scripts for mapping and analyzing short genomic elements (such as G-quadruplex structures) in multi-species alignments. The tools are designed to work with the MAF (Multiple Alignment Format) file format and accept multiple BED files containing the sequence intervals to map. The first script maps these intervals to their corresponding locations in a MAF alignment, allowing users to observe where each element appears across different sequences in the alignment.  
+This repository provides two Python scripts for mapping and analyzing short genomic elements (such as G-quadruplexes) in multi-species alignments. The tools are designed to work with the MAF (Multiple Alignment Format) file format and accept multiple BED files containing the sequence intervals to map. The first script maps these intervals to their corresponding locations in a MAF alignment, allowing users to observe where each element appears across different sequences in the alignment.  
 
 The second script refines the initial mapping by accounting for slight positional variations (flanks or “wobbles”) in similar elements across species. This script helps remove redundant entries, merge similar elements, and optimize the data for downstream analyses. Together, these tools support comparative genomics studies focused on the evolution and distribution of short genomic elements across species.
 
