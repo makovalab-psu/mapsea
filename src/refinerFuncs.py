@@ -258,7 +258,7 @@ def processRedundant(dataframe, removeGroups, progress=False):
                 compare = df_part.iloc[indices] 
                 compare["END"] = compare["START"] + compare["ALIGNMENT_LENGTH"] #get the end position
                 filtered_rows.append(evaluate_redundant(compare)) #append the filtered rows to the filtered_rows list
-            df_removed = df_removed.loc[~((df_removed.index.get_level_values('ID') == id) & (df_removed.index.get_level_values('G4').str.contains('|'.join(subset))))] #remove the subset from the dataframe
+            df_removed = df_removed.loc[~((df_removed.index.get_level_values('ID') == id) & (df_removed.index.get_level_values('G4').str.fullmatch('|'.join(subset))))] #remove the subset from the dataframe
             processed = pd.concat(filtered_rows,axis=1).T.drop(columns=["SEQ_LEN","END"]) #concatenate the filtered rows and set the index
             unduplicated.append(processed)
         # if progress == True:
