@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "Evolutionary Dynamics of G-Quadruplexes in Human and Other Great Ape Telomere-to-Telomere Genomes"
+title: "Evolutionary Dynamics of Predicted G-quadruplexes in Human and Other Great Apes"
 authors:
   - family-names: "Mohanty"
     given-names: "Saswat K."
@@ -8,7 +8,7 @@ authors:
     given-names: "Francesca"
   - family-names: "Makova"
     given-names: "Kateryna D."
-year: 2024
-doi: "10.1101/2024.11.05.621973"
-url: "https://doi.org/10.1101/2024.11.05.621973"
-date-released: 2024-11-05
+year: 2025
+doi: "10.1186/s13059-025-03635-1"
+url: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03635-1"
+date-released: 2025-06-11
